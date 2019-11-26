@@ -1,5 +1,5 @@
 def square_array(array)
   # your code here
-  newArray = array.inject(:*)
+  newArray = array.each(:*)
   return newArray
 end
